@@ -1,0 +1,32 @@
+
+
+<div id="schedule">
+	<h2>PROGRAMAÇÃO</h2>
+	
+	<ul class="nav nav-tabs" id="myTab">
+		<li class="active">
+			<a href="#day_one" data-toggle="tab">1º DIA, 26 DE NOVEMBRO</a>
+		</li>
+		<li>
+			<a href="#day_two" data-toggle="tab">2º DIA, 27 DE NOVEMBRO</a>
+		</li>
+	</ul>
+	
+	<div class="tab-content" id="myTabContent">
+		<div class="tab-pane fade in active" id="day_one">
+			<%= render :partial => 'programacao_day_one' %>
+		</div>
+	    <div class="tab-pane fade" id="day_two">
+			<%= render :partial => 'programacao_day_two' %>
+		</div>
+	</div>
+	
+	<p class="visible-md visible-lg">
+		<a class="btn btn-primary btn-lg" href="http://sigeventos.com.br/agrimoney2013/inscricao/sel_linguagem.asp" target="_blank">
+			INSCREVA-SE JÁ
+		</a>
+	</p>
+
+	<hr>
+
+</div>

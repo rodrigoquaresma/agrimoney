@@ -1,0 +1,100 @@
+/*sizes*/
+
+[class^="gg"] {
+	font-size: 60px;
+}
+
+.gmbrlg, .gmmblg, .gmmdlg, .gmdklg,
+.gmbrbd, .gmmbbd, .gmmdbd, .gmdkbd {font-size:40px;}
+
+.gpbrlg, .gpmblg, .gpmdlg, .gpdklg,
+.gpbrbd, .gpmbbd, .gpmdbd, .gpdkbd {font-size:32px;}
+
+.mgbrlg, .mgmblg, .mgmdlg, .mgdklg,
+.mgbrbd, .mgmbbd, .mgmdbd, .mgdkbd {font-size:28px;}
+
+.mmbrlg, .mmmblg, .mmmdlg, .mmdklg,
+.mmbrbd, .mmmbbd, .mmmdbd, .mmdkbd {font-size:24px;}
+
+.mpbrlg, .mpmblg, .mpmdlg, .mpdklg,
+.mpbrbd, .mpmbbd, .mpmdbd, .mpdkbd {font-size:22px;}
+
+.pgbrlg, .pgmblg, .pgmdlg, .pgdklg,
+.pgbrbd, .pgmbbd, .pgmdbd, .pgdkbd {font-size:20px;}
+
+.pmbrlg, .pmmblg, .pmmdlg, .pmdklg,
+.pmbrbd, .pmmbbd, .pmmdbd, .pmdkbd {font-size:18px;}
+
+.ppbrlg, .ppmblg, .ppmdlg, .ppdklg,
+.ppbrbd, .ppmbbd, .ppmdbd, .ppdkbd {font-size:18px;}
+
+
+/*br - brith*/
+.ggbrlg, .ggbrbd, .gmbrlg, .gmbrbd, .gpbrlg, .gpbrbd,
+.mgbrlg, .mgbrbd, .mmbrlg, .mmbrbd, .mpbrlg, .mpbrbd,
+.pgbrlg, .pgbrbd, .pmbrlg, .pmbrbd, .ppbrlg, .ppbrbd
+{fill:#e5e5e5;}
+
+/*mb - medium bright*/
+.ggmblg, .ggmbbd, .gmmblg, .gmmbbd, .gpmblg, .gpmbbd,
+.mgmblg, .mgmbbd, .mmmblg, .mmmbbd, .mpmblg, .mpmbbd,
+.pgmblg, .pgmbbd, .pmmblg, .pmmbbd, .ppmblg, .ppmbbd
+{fill:#999999;}
+
+/*md - medium dark*/
+.ggmdlg, .ggmdbd, .gmmdlg, .gmmdbd, .gpmdlg, .gpmdbd,
+.mgmdlg, .mgmdbd, .mmmdlg, .mmmdbd, .mpmdlg, .mpmdbd,
+.pgmdlg, .pgmdbd, .pmmdlg, .pmmdbd, .ppmdlg, .ppmdbd
+{fill:#666666;}
+
+/*dk - dark*/
+.ggdklg, .ggdkbd, .gmdklg, .gmdkbd, .gpdklg, .gpdkbd,
+.mgdklg, .mgdkbd, .mmdklg, .mmdkbd, .mpdklg, .mpdkbd,
+.pgdklg, .pgdkbd, .pmdklg, .pmdkbd, .ppdklg, .ppdkbd
+{fill:#1a1a1a;}
+
+
+/*lg - lighter*/
+.ggbrlg, .ggmblg, .ggmdlg, .ggdklg,
+.gmbrlg, .gmmblg, .gmmdlg, .gmdklg,
+.gpbrlg, .gpmblg, .gpmdlg, .gpdklg,
+.mgbrlg, .mgmblg, .mgmdlg, .mgdklg,
+.mmbrlg, .mmmblg, .mmmdlg, .mmdklg,
+.mpbrlg, .mpmblg, .mpmdlg, .mpdklg,
+.pgbrlg, .pgmblg, .pgmdlg, .pgdklg,
+.pmbrlg, .pmmblg, .pmmdlg, .pmdklg,
+.ppbrlg, .ppmblg, .ppmdlg, .ppdklg
+{font-weight:lighter;}
+
+/*bd - bold*/
+.ggbrbd, .ggmbbd, .ggmdbd, .ggdkbd,
+.gmbrbd, .gmmbbd, .gmmdbd, .gmdkbd,
+.gpbrbd, .gpmbbd, .gpmdbd, .gpdkbd,
+.mgbrbd, .mgmbbd, .mgmdbd, .mgdkbd,
+.mmbrbd, .mmmbbd, .mmmdbd, .mmdkbd,
+.mpbrbd, .mpmbbd, .mpmdbd, .mpdkbd,
+.pgbrbd, .pgmbbd, .pgmdbd, .pgdkbd,
+.pmbrbd, .pmmbbd, .pmmdbd, .pmdkbd,
+.ppbrbd, .ppmbbd, .ppmdbd, .ppdkbd
+{font-weight:bold;}
+
+/*font-family*/
+.ggbrlg, .ggmblg, .ggmdlg, .ggdklg,
+.gmbrlg, .gmmblg, .gmmdlg, .gmdklg,
+.gpbrlg, .gpmblg, .gpmdlg, .gpdklg,
+.mgbrlg, .mgmblg, .mgmdlg, .mgdklg,
+.mmbrlg, .mmmblg, .mmmdlg, .mmdklg,
+.mpbrlg, .mpmblg, .mpmdlg, .mpdklg,
+.pgbrlg, .pgmblg, .pgmdlg, .pgdklg,
+.pmbrlg, .pmmblg, .pmmdlg, .pmdklg,
+.ppbrlg, .ppmblg, .ppmdlg, .ppdklg,
+.ggbrbd, .ggmbbd, .ggmdbd, .ggdkbd,
+.gmbrbd, .gmmbbd, .gmmdbd, .gmdkbd,
+.gpbrbd, .gpmbbd, .gpmdbd, .gpdkbd,
+.mgbrbd, .mgmbbd, .mgmdbd, .mgdkbd,
+.mmbrbd, .mmmbbd, .mmmdbd, .mmdkbd,
+.mpbrbd, .mpmbbd, .mpmdbd, .mpdkbd,
+.pgbrbd, .pgmbbd, .pgmdbd, .pgdkbd,
+.pmbrbd, .pmmbbd, .pmmdbd, .pmdkbd,
+.ppbrbd, .ppmbbd, .ppmdbd, .ppdkbd
+{font-family:'Tiresias Infofont', 'Tiresias PCfont';}
