@@ -9,4 +9,4 @@
 
 # Make sure your secret_key_base is kept private
 # if you're sharing your code publicly.
-Oxys::Application.config.secret_key_base = '7eefe4ff9cd5d5702d08b5c0fa542f1ba61473915a0fede30071ee3b68afcef19b589766c864768f09f574565ec1125d6374c10bc48118e1f871f271b3f0051a'
+Agrimoney::Application.config.secret_key_base = '7eefe4ff9cd5d5702d08b5c0fa542f1ba61473915a0fede30071ee3b68afcef19b589766c864768f09f574565ec1125d6374c10bc48118e1f871f271b3f0051a'

@@ -3,7 +3,7 @@ class AgrimoneyController < ApplicationController
     
   def index
     @content = params[:content]
-    render 'index'
+    render 'site/index'
   end
 
 end

@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<%= yield :head %>
-	<%= render :partial => 'header' %>
+	<%= render :partial => 'site/header' %>
 </head>
 <body>
 <div id="fb-root"></div>
@@ -14,17 +14,17 @@ js.src = "//connect.facebook.net/pt_BR/all.js#xfbml=1&appId=104305529720963";
 fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
 
-<%= render :partial => 'banner' %>
+<%= render :partial => 'site/banner' %>
 
-<%= render :partial => 'navbar' %>
+<%= render :partial => 'site/navbar' %>
 
 <div class="container">
 	<div class="row">
 		<div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
-			<%= render :partial => @content %>
+			<%= render :partial => 'site/'+@content %>
 		</div>
 		<div class="col-xs-12 col-sm-8 col-md-4 col-md-offset-0 col-lg-4 col-lg-offset-0">
-			<%= render :partial => 'sponsor' %>
+			<%= render :partial => 'site/sponsor' %>
 		</div>
 	</div>
 </div>
