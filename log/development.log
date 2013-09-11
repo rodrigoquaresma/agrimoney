@@ -14142,3 +14142,12 @@ Processing by AgrimoneyController#index as HTML
   Rendered site/_sponsor.html.erb (1.7ms)
   Rendered site/index.html.erb within layouts/application (37.5ms)
 Completed 200 OK in 40ms (Views: 40.0ms | ActiveRecord: 0.0ms)
+Processing by AgrimoneyController#index as HTML
+  Parameters: {"content"=>"home"}
+  Rendered site/_header.html.erb (8.7ms)
+  Rendered site/_banner.html.erb (0.2ms)
+  Rendered site/_navbar.html.erb (1.8ms)
+  Rendered site/_home.html.erb (1.2ms)
+  Rendered site/_sponsor.html.erb (1.1ms)
+  Rendered site/index.html.erb within layouts/application (16.6ms)
+Completed 200 OK in 20ms (Views: 18.6ms | ActiveRecord: 0.0ms)
