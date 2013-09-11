@@ -3,4 +3,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-Oxys::Application.load_tasks
+Agrimoney::Application.load_tasks

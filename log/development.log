@@ -14359,3 +14359,12 @@ Processing by SiteController#index as HTML
   Rendered site/_sponsor.html.erb (1.5ms)
   Rendered site/index.html.erb within layouts/application (85.2ms)
 Completed 200 OK in 97ms (Views: 96.2ms | ActiveRecord: 0.0ms)
+Processing by SiteController#index as HTML
+  Parameters: {"content"=>"contato"}
+  Rendered site/_header.html.erb (7.3ms)
+  Rendered site/_banner.html.erb (0.2ms)
+  Rendered site/_navbar.html.erb (1.0ms)
+  Rendered site/_contato.html.erb (0.4ms)
+  Rendered site/_sponsor.html.erb (1.0ms)
+  Rendered site/index.html.erb within layouts/application (13.0ms)
+Completed 200 OK in 15ms (Views: 14.8ms | ActiveRecord: 0.0ms)
