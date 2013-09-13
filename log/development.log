@@ -14422,3 +14422,21 @@ Processing by SiteController#index as HTML
   Rendered site/_sponsor.html.erb (1.4ms)
   Rendered site/index.html.erb within layouts/application (1787.7ms)
 Completed 200 OK in 1790ms (Views: 1789.4ms | ActiveRecord: 0.0ms)
+Processing by SiteController#index as HTML
+  Parameters: {"content"=>"home"}
+  Rendered site/_header.html.erb (2057.7ms)
+  Rendered site/_banner.html.erb (0.3ms)
+  Rendered site/_navbar.html.erb (1.2ms)
+  Rendered site/_home.html.erb (1.4ms)
+  Rendered site/_sponsor.html.erb (1.1ms)
+  Rendered site/index.html.erb within layouts/application (2099.5ms)
+Completed 200 OK in 2118ms (Views: 2117.3ms | ActiveRecord: 0.0ms)
+Processing by SiteController#index as HTML
+  Parameters: {"content"=>"home"}
+  Rendered site/_header.html.erb (57.7ms)
+  Rendered site/_banner.html.erb (1.2ms)
+  Rendered site/_navbar.html.erb (1.1ms)
+  Rendered site/_home.html.erb (1.2ms)
+  Rendered site/_sponsor.html.erb (1.1ms)
+  Rendered site/index.html.erb within layouts/application (65.4ms)
+Completed 200 OK in 68ms (Views: 67.8ms | ActiveRecord: 0.0ms)
