@@ -61,18 +61,30 @@ header {
 		width:100%;
 	}
 	div.info-bar {
-		width:50%;
+		display:block;
+		width:100%;
 		border-top:8px solid #d4d3cd;
-		span {
-			padding:.5em 1em;
-			display:block;
-			color:#f2f2f2;
+		.date,
+		.location {
+			width:50%;
+			float:left;
+			span {
+				padding:.5em 1em;
+				display:block;
+				color:#f2f2f2;
+			}
 		}
-		&.date {		
-			background-color:#1d1d1b;
+		.date {
+			span {
+				text-align:right;
+				background-color:#1d1d1b;
+			}
 		}
-		&.location {
-			background-color:#1d882e;		
+		.location {
+			span {
+				text-align:left;
+				background-color:#1d882e;				
+			}
 		}
 	}
 }
