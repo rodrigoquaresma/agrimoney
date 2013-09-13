@@ -14368,3 +14368,21 @@ Processing by SiteController#index as HTML
   Rendered site/_sponsor.html.erb (1.0ms)
   Rendered site/index.html.erb within layouts/application (13.0ms)
 Completed 200 OK in 15ms (Views: 14.8ms | ActiveRecord: 0.0ms)
+Processing by SiteController#index as HTML
+  Parameters: {"content"=>"home"}
+  Rendered site/_header.html.erb (484.4ms)
+  Rendered site/_banner.html.erb (58.6ms)
+  Rendered site/_navbar.html.erb (2.2ms)
+  Rendered site/_home.html.erb (36.3ms)
+  Rendered site/_sponsor.html.erb (104.6ms)
+  Rendered site/index.html.erb within layouts/application (701.2ms)
+Completed 200 OK in 755ms (Views: 733.8ms | ActiveRecord: 0.0ms)
+Processing by SiteController#index as HTML
+  Parameters: {"content"=>"home"}
+  Rendered site/_header.html.erb (179.4ms)
+  Rendered site/_banner.html.erb (0.3ms)
+  Rendered site/_navbar.html.erb (1.1ms)
+  Rendered site/_home.html.erb (1.4ms)
+  Rendered site/_sponsor.html.erb (1.0ms)
+  Rendered site/index.html.erb within layouts/application (203.5ms)
+Completed 200 OK in 206ms (Views: 205.3ms | ActiveRecord: 0.0ms)
